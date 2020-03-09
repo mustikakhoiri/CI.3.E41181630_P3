@@ -21,8 +21,7 @@ Dalam membuat sistem login, diperlukan adanya sebuah session. Session merupakan 
 Salah satu contoh penggunaan session adalah dalam sistem login. Misalnya, session dimulai dari halaman login dan dilanjutkan ke halaman admin. Maka user diharuskan melakukan login terlebih dahulu karena user tidak akan bisa membuka halaman admin jika belum melakukan login.
 
 Berikut syntax yang digunakan dalam membuat session:
------------------------------------------------------------
-
+```
 <?php
 
 //memulai session
@@ -41,5 +40,4 @@ session_unset($_SESSION["nama_session"]);     								//contoh: session_unset($_
 session_destroy();
 
 ?>
-
------------------------------------------------------------
+```
