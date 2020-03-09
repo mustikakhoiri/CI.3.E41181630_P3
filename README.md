@@ -28,13 +28,13 @@ Berikut syntax yang digunakan dalam membuat session:
 session_start(); 
 
 //menyimpan informasi session
-$_SESSION["nama_session"]="value";														//contoh: $_SESSION["nama"]="tika";
+$_SESSION["nama_session"]="value";			//contoh: $_SESSION["nama"]="tika";
 
 //memanggil informasi variabel session yang telah disimpan
-echo "nama saya adalah" . $_SESSION["nama_session"]. ".";			//contoh: echo "nama saya adalah" . $_SESSION["nama"].".";
+echo "nama saya adalah" . $_SESSION["nama_session"]. ".";				//contoh: echo "nama saya adalah" . $_SESSION["nama"].".";
 
 // menghapus variabel session    
-session_unset($_SESSION["nama_session"]);     								//contoh: session_unset($_SESSION["nama"]);
+session_unset($_SESSION["nama_session"]);			//contoh: session_unset($_SESSION["nama"]);
   
 // menghapus semua session;     
 session_destroy();
